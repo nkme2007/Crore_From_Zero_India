@@ -2,6 +2,8 @@
 
 A Claude skill that generates copy-paste-ready graphics via a deterministic, compiler-grade pipeline.
 
+![Process Flow Example](examples/process-flow-example.svg)
+
 ## What it does
 
 Converts plain-language requests into presentation-ready graphics — SVG, Mermaid diagrams, Python charts, or PowerPoint shape specs — without any ad-hoc design decisions.
