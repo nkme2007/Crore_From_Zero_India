@@ -4,6 +4,28 @@ A Claude skill that generates copy-paste-ready graphics via a deterministic, com
 
 ![Process Flow Example](examples/process-flow-example.svg)
 
+## Getting Started
+
+### Option 1 — Upload via Claude.ai Skills (recommended)
+
+1. Download the latest `.skill` file from the [Releases](../../releases) page
+2. Go to [claude.ai](https://claude.ai) → **Settings → Skills**
+3. Click **Upload Skill** and select the `.skill` file
+4. The skill is now active — just describe the graphic you need in any conversation
+
+### Option 2 — Manual setup
+
+1. Copy the contents of `SKILL.md` into a Claude system prompt or project instruction
+2. Make sure Claude can also access the three files in `references/` for full functionality
+3. Start prompting — see [Example prompts](#example-prompts) below
+
+### Requirements
+
+- A Claude account (claude.ai) or access to the Claude API
+- No installation, dependencies, or coding required
+
+---
+
 ## What it does
 
 Converts plain-language requests into presentation-ready graphics — SVG, Mermaid diagrams, Python charts, or PowerPoint shape specs — without any ad-hoc design decisions.
